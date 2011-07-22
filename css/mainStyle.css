@@ -1,0 +1,173 @@
+/* 
+    Document   : mainStyle
+    Created on : Jul 15, 2011, 4:03:43 AM
+    Author     : haqisaurus
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#container{
+    width:1024px;
+    border-left: 0px solid;
+    border-right: 0px solid;
+    height: auto;
+    margin: 0px;
+    text-align: center;/* IE fix to center the page */
+    position: relative;
+    padding-top:7px;
+    padding-bottom:7px;
+    box-shadow: 4px 5px 4px 5px #999; -moz-box-shadow: 4px 5px 4px 5px #999; -webkit-box-shadow: 4px 5px 4px 5px #999;
+}
+
+#header {
+    width:auto;
+    height:auto;
+    clear:both;
+    padding: 15px;
+    background-color:#555555;
+    color:#fff;
+    text-align: left;
+    font-family: cursive,fantasy;
+    font-size: xx-large;
+}
+#menu {
+    width:auto;
+    height:auto;
+    clear:both;
+    text-align: center;
+    margin: 10px;
+}
+#content {
+    float:left;
+    width:65%;
+    padding:30px;
+    margin: auto;
+    clear: both;
+    text-align: justify;
+    font-size: medium;
+    border-right: 2px #999999 solid;
+    border-top:  2px #999999 solid;
+    -webkit-border-radius:5px;
+    -moz-border-radius: 5px;
+    box-shadow: 4px 5px 4px  #999;
+    -moz-box-shadow: 4px 5px 4px  #999;
+    -webkit-box-shadow: 4px 5px 4px  #999;
+}
+
+#sidebar {
+    float:left;
+    width:25%;
+    text-align: left;
+    padding: 10px;
+}
+
+#footer {
+    clear:both;
+    height:30px;
+    width:auto;
+    background-color:#555555;
+    color:#fff;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.menutip {
+    background-color: #d3d3d3;
+    border-radius:20px; /* CSS 3*/
+    -khtml-border-radius:20px; /* Untuk Linux */
+    -moz-border-radius:20px; /* Untuk Safari, Chrome, dan WebKit lainnya*/
+    -webkit-border-radius:20px; /* Untuk Firefox */
+    border-left: 2px #999999;
+    box-shadow: 4px 5px 4px  #999;
+    -moz-box-shadow: 4px 5px 4px  #999;
+    -webkit-box-shadow: 4px 5px 4px  #999;
+}
+/*css untuk manu bar login*/
+form {
+    margin:0 auto;
+    text-align:left;
+    width:228px;
+    border:3px solid #aaaaaa;
+    padding:15px;
+    background:#fff;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0 0 4px #ccc;
+    -webkit-box-shadow: 0 0 4px #ccc;
+    -moz-box-shadow: 0 0 4px #ccc;
+}
+
+fieldset {
+    overflow:hidden;
+    border:0;
+    height:30px;
+}
+
+fieldset label {
+    display:block;
+    float:left;
+    font-weight:700;
+    color:#666;
+    line-height:2.2em;
+}
+
+fieldset input {
+    border:1px solid #ccc;
+    height: 25px;
+    width:200px;
+}
+
+#button {
+    margin-top:10px;
+    padding-right:20px;
+    text-align:right;
+}
+
+#button input {
+    margin:0 auto;
+}
+
+a.cssSubmitButton {
+    font-size: 12px;
+    background: #fff no-repeat 4px 5px;
+    display: inline-block;
+    padding: 5px 20px 6px;
+    color: #333;
+    border:1px solid #ccc;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1.2em;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-box-shadow: 0 1px 3px #999;
+    -webkit-box-shadow: 0 1px 3px #999;
+    position: relative;
+    cursor: pointer;
+    outline:none;
+}
+
+a.cssSubmitButton:visited {}
+
+a.cssSubmitButton:hover {
+    border:1px solid #333;
+}
+
+.loading {
+    background-image:url('load.gif') !important;
+    color:#ccc !important;
+    -moz-box-shadow: 0 0 0 #fff !important;
+    -webkit-box-shadow: 0 0 0 #fff !important;
+}
+
+.effect {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}

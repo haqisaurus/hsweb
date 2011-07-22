@@ -1,0 +1,162 @@
+#container{
+    width: auto;
+    height: auto;
+    margin: 0px;
+    text-align: center;/* IE fix to center the page */
+    position: relative;
+    padding-top:7px;
+    padding-bottom:7px;
+}
+#wrapper {
+    width:1024px;
+    position: relative;
+    height:auto;
+    font-family: arial;
+    text-align: justify;
+}
+#header {
+    width:1024px;
+    height:auto;
+    clear:both;
+    background-color:#000;
+    color:#fff;
+    text-align: left;
+    font-family: cursive,fantasy;
+    font-size: xx-large;
+}
+
+#content {
+    float:left;
+    width:733px;
+    padding:10px;
+    margin: auto;
+    clear: both;
+    text-align: justify;
+    font-size: medium;
+    background-color: #ddd;
+}
+
+#inside{
+    background:#fff;
+    border:4px solid #999;
+    height:auto;
+    padding:50px;
+    width:800px;
+    color:#555555;
+}
+
+legend {
+    padding: 0.3em 1em;
+    border:4px solid #999999;
+    color:#363636;
+    font-size:100%;
+    text-align:right;
+    -webkit-border-radius:9px;
+    -moz-border-radius: 9px;
+}
+
+#sidebar {
+    float:left;
+    width:250px;
+    text-align: left;
+    background-color:#f0f0f0;
+    font-size: 11;
+    padding: 10px;
+}
+
+#footer {
+    clear:both;
+    height:30px;
+    width:1024px;
+    background-color:#000;
+    color:#fff;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+input, select, textarea{
+    border:1px solid #555555;
+    padding: 3px 10px 3px 10px;
+    margin: 1px;
+    font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:  #000;
+}
+
+input.blur {
+    color: black;
+}
+.checkbox, .radio {
+    width: 50px;
+    height: 50px;
+    padding: 0 5px 0 0;
+    background: url(../images/checkbox.gif) no-repeat;
+    display: block;
+    clear: left;
+    float: left;
+    cursor:pointer;
+    color:#ffffff;
+    border: 1px solid #363636;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.radio {
+    background: url(radio.gif) no-repeat;
+}
+.select {
+    position: absolute;
+    width: 158px; /* With the padding included, the width is 190 pixels: the actual width of the image. */
+    height: 21px;
+    padding: 0 24px 0 8px;
+    color: #fff;
+    font: 12px/21px arial,sans-serif;
+    background: url(select.gif) no-repeat;
+    overflow: hidden;
+}
+/*untuk tabel*/
+#table {
+    border: 1px solid #000000;
+}
+thead th {
+    background-color: #44D818;
+    color           : #FFFFFF;
+    font: 80%/1.6 "Myriad Pro", Frutiger, "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif;
+    cursor: pointer;
+    background-image: url(../images/bg.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+thead tr .headerSortUp {
+    background-image: url("../images/asc.gif");
+}
+thead tr .headerSortDown {
+    background-image: url("../images/asc.gif");
+}
+
+#tbody tr {
+    font: 80%/1.6 "Myriad Pro", Frutiger, "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif;
+}
+.genap {
+    background-color: #999999;
+}
+.ganjil {
+    background-color: #d3d3d3;
+}
+.over {
+    background-color: transparent;
+}
+
+.field-group{
+    width: 325px;
+}
+
+.input-process{
+    -moz-border-radius: 10px; -webkit-border-radius: 10px;
+}
+.gambar{
+ border-radius:20px; /* CSS 3*/
+-khtml-border-radius:20px; /* Untuk Linux */
+-moz-border-radius:20px; /* Untuk Safari, Chrome, dan WebKit lainnya*/
+-webkit-border-radius:20px; /* Untuk Firefox */
+}

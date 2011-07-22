@@ -1,0 +1,1 @@
+Copyright © 2011 Laboratorium KSC, Inc. All rights reserved. 

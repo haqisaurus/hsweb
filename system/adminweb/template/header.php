@@ -1,0 +1,1 @@
+<img style="margin-top: 0px; margin-left: 0px; top: 0px; left: 0px; width: 100px; height: 100px; padding: 5px;" class="gambar" src="<?php echo BASE_URL; ?>images/logo.jpg" alt="">Integrated System KSC
